@@ -12,7 +12,7 @@ module.gui = {}
 module.gui.basic = {
 
 	["default"] = "PAR DÉFAUT",
-	["validate"] = "VALIDÉ",
+	["validate"] = "VALIDER",
 
 }
 
@@ -57,18 +57,18 @@ module.gui.serversettings = {
 	["CasualPlayers"] = "Joueurs Hors-Courses autorisé à jeter des sorts",
 	["Regeneration"] = "Régénaration d'escaliers auto après une Purge du Wicked (ne fonctionnera pas en mode infini)",
 	["EvenLevels"] = "Niveaux Pairs Restreints",
-	["OrbMoves"] = "Endgame orb changes position",
-	["InfRegeneration"] = "Auto Staircase generation on new server, tower levels change and after the infinite race",
+	["OrbMoves"] = "Orb de fin de jeu bouge",
+	["InfRegeneration"] = "Génération d'escaliers auto dans un nouveau server,Changement des niveaux de la Tour et après la course Infinie",
 	--deprecated
 	--["TowerLevels"] = "Tower levels (or active levels in the infinite mode). Cannot be changed during a race or a regeneration",
-	["TowerSize"] = "Tower grid size (experimental)",
-	["RaceDuration"] = "Maximum Race Duration. Will not affect current race. (seconds)",
-	["InfStart"] = "Initial Infinite mode round interval (2 levels are created each round) (seconds)",
-	["InfReduction"] = "Infinite mode interval reduction (each round is shorter by) (seconds)",
-	["InfMin"] = "Infinite mode minimum interval duration (seconds)",
+	["TowerSize"] = "Taille de la grille de Tour (expérimentale)",
+	["RaceDuration"] = "Durée Maximale de la Course. N'affecteras pas la course en cours. (secondes)",
+	["InfStart"] = "Intervalle initial des manches du mode Infini (2 niveaux sont crées chaque manches) (secondes)",
+	["InfReduction"] = "Réduction de l'intervalle du mode Infini (chaque manches est plus court de) (secondes)",
+	["InfMin"] = "durée minimale de l'intervalle du mode Infini (secondes)",
 
 	--NEW KEY
-	["CooldownTime"] = "Event and Rig cool down period (seconds)",
+	["CooldownTime"] = "Temps de recharge Événements et Rig (secondes)",
 	--END NEW
 
 }
@@ -77,26 +77,26 @@ module.gui.serversettings = {
 module.gui.shop = {
 
 	--NEW
-	["architect"] = "The Architect game pass allows you to become an Architect without a VR headset.",
+	["architect"] = "Le passe de jeu Architect vous permets d'être Architect sans un casque VR.",
 	--END NEW
 
-	["chameleon"] = "Chameleons can change alignment during climb.",
-	["spectre"] = "Spectre is a teleport based alignment best for solo play.",
-	["mana"] = "Expand your Mana storage capacity by 10 points.",
+	["chameleon"] = " Le Chameleon peut changer de classe pendant la montée.",
+	["spectre"] = " Le Spectre est basé sur la téléportation meilleur pour les parties en Solo.",
+	["mana"] = "Augment votre capacité de stockage de Mana de 10.",
 
-	["3tokens"] = "Unlock one spell or cast up to 3 ultimate spells.",
-	["30tokens"] = "Unlock ten spells or cast up to 30 ultimate spells.",
-	["300tokens"] = "Enough to unlock all spells with 93 tokens left.",
+	["3tokens"] = "Débloque un sort ou permets de lancer jusqu'à 3 sorts ultimes.",
+	["30tokens"] = "Débloque 10 sorts ou permets lancer jusqu'à 30 sorts ultimes.",
+	["300tokens"] = "Suffisant pour débloquer tout les sorts avec 93 tokens restants.",
 
-	["3TOKENS"] = "3 Multi Tokens (R$%d)",
-	["30TOKENS"] = "30 Multi Tokens (R$%d)",
-	["300TOKENS"] = "300 Multi Tokens (R$%d)",
+	["3TOKENS"] = "3 Tokens multiples (R$%d)",
+	["30TOKENS"] = "30 Tokens multiples (R$%d)",
+	["300TOKENS"] = "300 Tokens Multiples (R$%d)",
 
 	--NEW
-	["SPECTRE"] = "Spectre game pass (R$%d)",
-	["MANA"] = "20 Mana Storage game pass (R$%d)",
-	["CHAMELEON"] = "Chameleon game pass (R$%d)",
-	["ARCHITECT"] = "Architect game pass (R$%d)",
+	["SPECTRE"] = "Passe de jeu Spectre (R$%d)",
+	["MANA"] = "Passe de jeu 20 Mana (R$%d)",
+	["CHAMELEON"] = "Passe de jeu Chameleon (R$%d)",
+	["ARCHITECT"] = "Passe de jeu Architect (R$%d)",
 
 	--END NEW
 
@@ -105,11 +105,11 @@ module.gui.shop = {
 
 module.gui.nospellsbar = {
 
-	["nocasual"] = "ONLY RACERS CAN CAST SPELLS",
-	["possessed"] = "POSSESSED! (Find Mana to break free)",
+	["nocasual"] = "SEULEMENT LES COUREURS PEUVENT LANCER DES SORTS",
+	["possessed"] = "POSSÉDÉ! (Trouve du Mana pour te libérer)",
 	--NEW
-	["permanent"] = "POSSESSED! (permanent mode)",
-	["cancelled"] = "CANCELLED...", --timed spell cancelled
+	["permanent"] = "POSSÉDÉ! (mode permanent)",
+	["cancelled"] = "ANNULÉ...", --timed spell cancelled
 	--END NEW
 
 }
@@ -117,79 +117,79 @@ module.gui.nospellsbar = {
 --NEW
 module.gui.stats = {
 
-	["badges"] = "YOUR BADGES",
-	["climbs"] = "YOUR CLIMBS",
-	["total"] = "TOTAL CLIMBS/WINS",
-	["best"] = "BEST TIME OVERALL",
-	["norecord"] = "[no record]",
+	["badges"] = "VOS BADGES",
+	["climbs"] = "VOS MONTÉES",
+	["total"] = "TOTAL DES MONTÉES/VICTOIRES",
+	["best"] = "MEILLEUR TEMPS GLOBAL",
+	["norecord"] = "[pas de record]",
 
-	["2124486274"] = "Prank the Creator",
-	["1803533030753957"] = "Black Hole",
-	["2124480173"] = "Wicked's Treason",
-	["2124480172"] = "Joker's Trick",
-	["2124637294"] = "Drifter's Voyage",
-	["2124517579"] = "Thief's Heist",
-	["4464785885277417"] = "Splicer's Twist",
-	["2124480174"] = "Keeper's Order",
-	["2124637293"] = "Archon's Connection",
-	["2124517578"] = "Hacker's Exploit",
-	["707445818894757"] = "Gremlin's Spiral",
-	["2124480171"] = "Patron's Pride",
-	["1407551481032773"] = "Reaver's Reflection",
-	["2124637295"] = "Heretic's Curse",
-	["1885715582646280"] = "Necromancer's Rite",
-	["2124480175"] = "Muggle's Logic",
-	["2124826874"] = "Full Circle",
-	["2124529966"] = "Skipped the Tutorial",
-	["2124826880"] = "Possessed Fate",
-	["3731010929572663"] = "Hypnotised Dream",
-	["840574993122888"] = "Perspective Reflected",
-	["2124913225"] = "Architect's Design",
-	["2124702954"] = "Rootkit Installed",
-	["2124702945"] = "Destroy Everything",
-	["2124702946"] = "Order Restored",
-	["128721686760593"] = "You Spin me Round and Round.",
-	["2124702952"] = "I'll Take the Elevator",
-	["3121101516427751"] = "The Entanglement",
-	["2124702942"] = "Leave no Noob Behind",
-	["2124702950"] = "Illuminati Confirmed",
-	["2124702951"] = "Mine, Mine all MINE!",
-	["1165646024608180"] = "We are One.",
-	["2303731210592278"] = "Rise, Rise, RISE!",
+	["2124486274"] = "Prank le Créateur",
+	["1803533030753957"] = "Trou Noir",
+	["2124480173"] = "Trahison du Wicked",
+	["2124480172"] = "Farce du Joker",
+	["2124637294"] = "Voyage du Drifter",
+	["2124517579"] = "Braquage du Thief",
+	["4464785885277417"] = "Torsion du Splicer",
+	["2124480174"] = "Ordre du Keeper",
+	["2124637293"] = "Connection du Archon",
+	["2124517578"] = "Exploitation du Hacker",
+	["707445818894757"] = "Spirale du Gremlin",
+	["2124480171"] = "Fierté du Patron",
+	["1407551481032773"] = "Réfléction du Reaver",
+	["2124637295"] = "Malédiction de l'Heretic",
+	["1885715582646280"] = "Rituel du Necromancer",
+	["2124480175"] = "Logique du Muggle",
+	["2124826874"] = "Cercle Complet",
+	["2124529966"] = "Tutoriel sauté",
+	["2124826880"] = "Destin Possédé",
+	["3731010929572663"] = "Rêve Hypnotisé",
+	["840574993122888"] = "Perspective Reflété",
+	["2124913225"] = "Design de l'Architect",
+	["2124702954"] = "Rootkit Installé",
+	["2124702945"] = "Détruit Tout",
+	["2124702946"] = "Order Restoré",
+	["128721686760593"] = "Tu me fait tourner en rond.",
+	["2124702952"] = "Je vais prendre l'ascenseur",
+	["3121101516427751"] = "L'Emmêlement",
+	["2124702942"] = "Laisse aucun nul derrière!",
+	["2124702950"] = "Illuminati Confirmé",
+	["2124702951"] = "à moi, à moi, TOUT EST A MOI!",
+	["1165646024608180"] = "Nous faisons qu'un.",
+	["2303731210592278"] = "Levez-vous, Levez-vous, LEVEZ-VOUS!",
 	["2124702949"] = "Excommunication",
-	["2124702943"] = "Pranking is Living",
-	["2124702948"] = "Spells are Overrated",
-	["2124826876"] = "Perfect Circle",
-	["2124645341"] = "Secret Badge",
-	["2126893403"] = "Super Secret Badge",
-	["2126893411"] = "Mega Secret Badge",
+	["2124702943"] = "Pranker est la vie",
+	["2124702948"] = "Les sorts sont surestimés",
+	["2124826876"] = "Cercle Parfait",
+	["2124645341"] = "Badge Secret",
+	["2126893403"] = "Badge Super Secret",
+	["2126893411"] = "Badge Méga Secret",
 
 }
 
 
 module.gui.questions = {
-	["cancel"] = "Do you want to cancel this timed spell? Tokens will not be refunded.",
-	["tutorial"]= "Would you like to play the tutorial?",
-	["skip"] = "Would you like to skip the tutorial?",
-	["reshuffle"] = "Do you want the stairs to avoid collisions while moving? If not, any stairs in the way will be destroyed.",
+	["cancel"] = "Voulez-vous vraiment annuler ce sort chronométré ? Les Tokens ne seront pas remboursés.",
+	["tutorial"]= "Voulez-vous jouer le tutoriel?",
+	["skip"] = "Voulez-vous passer le tutoriel?",
+	["reshuffle"] = "Voulez-vous que les escaliers évitent les collisions en bougeant ? Si non, tous les escaliers sur le chemin seront détruits.",
 	
 	--new
-	["gift"] = "Do you want to gift %s Game Pass to another player?",
-	["choose"] = "Choose a player to receive %s Game Pass", 
-	["confirm"] = "Do you want to gift %s Game Pass to %s?", --second %s is the chosen player
-	["received"] = "You have received %s Game Pass, courtesy of %s!",
+	["gift"] = "Voulez vous offrir le passe de jeu %s à un autre joueur?",
+	["choose"] = "Choisissez un joueur pour qu'il reçoive le pass de jeu %s", 
+	["confirm"] = "Voulez vous offrir le passe de jeu %s à %s?", --second %s is the chosen player
+	["received"] = "Vous avez reçu le passe de jeu %s, courtoisie de %s!",
 	
 	["architect"] = "Architect",
-	["mana"] = "+10 Mana Storage",
+	["mana"] = "+10 Stockage de Mana",
 	["spectre"] = "Spectre",
 	["chameleon"] = "Chameleon",
 
 	--end new
 	--new
-	["race"] = "Join race?",
-	["racein"] = "Race in:",
-	["go"] = "GO!",
-	["raceoff"] = "Race cancelled",
+	["race"] = "Rejoindre course?",
+	["racein"] = "Course dans:",
+	["go"] = "Partez!",
+	["raceoff"] = "Course annulée",
  	--end new
 }
 --END NEW
@@ -198,10 +198,10 @@ module.gui.questions = {
 
 module.gui.codes = {
 
-	["title"] = "ENTER THE CODE",
-	["body"] = "Input Your code here:",
+	["title"] = "ENTREZ LE CODE",
+	["body"] = "Entrez me code ici:",
 	["prompt"] = "(code)",
-	["button"] = "VALIDATE",
+	["button"] = "VALIDER",
 
 }
 
