@@ -209,38 +209,38 @@ module.gui.jukebox = {
 
 	["title"] = "JUKEBOX",
 
-	["master"] = "MASTER VOLUME",
-	["default"] = "(using master volume)",
-	["climb"] = "CLIMB MUSIC",
+	["master"] = "VOLUME MAÎTRE",
+	["default"] = "(utilise le volume maître)",
+	["climb"] = "MUSIQUE DE MONTÉE",
 	["endgame"] = "ENDGAME MUSIC",
-	["failed"] = "[failed to load]",
+	["failed"] = "[échec de chargement]",
 	--NEW
-	["off"] = "MUTED",
+	["off"] = "MUET",
 	--END NEW
 }
 
 module.gui.results = {
 
-	["title"] = "RACE RESULTS",
+	["title"] = "RÉSULTATS DE LA COURSE",
 
 	["place"] = "PLACE",
-	["name"] = "NAME",
-	["level"] = "MAX LEVEL",
-	["time"] = "TIME",
-	["rank"] = "RANK",
+	["name"] = "NOM",
+	["level"] = "NIVEAU MAX",
+	["time"] = "TEMPS",
+	["rank"] = "RANG",
 	["not"] = "N/A",
-	[1] = "WINNER",
-	[2] = "2nd",
-	[3] = "3rd",
-	[4] = "4th",
-	[5] = "5th",
-	[6] = "6th",
-	[7] = "7th",
-	[8] = "8th",
-	[9] = "9th",
-	[10] = "10th",
-	[11] = "11th",
-	[12] = "12th",
+	[1] = "GAGNANT",
+	[2] = "2eme",
+	[3] = "3eme",
+	[4] = "4eme",
+	[5] = "5eme",
+	[6] = "6eme",
+	[7] = "7eme",
+	[8] = "8eme",
+	[9] = "9eme",
+	[10] = "10eme",
+	[11] = "11eme",
+	[12] = "12eme",
 
 }
 
@@ -249,19 +249,19 @@ module.gui.results = {
 
 module.gui.menu = {
 	
-	["Codes"] = "Code entry",
-	["Feedback"] = "Send game feedback",
-	["Language"] = "Change game language",
-	["Music"] = "Music Jukebox",
-	["RaceResults"] = "Last race results",
-	["ServerSettings"] = "Tower Settings (Custom Tower)",
-	["Settings"] = "Game settings",
+	["Codes"] = "Saisie du Code",
+	["Feedback"] = "Envoyer un retour sur le jeu",
+	["Language"] = "Changer la langue du jeu",
+	["Music"] = "Musique du Jukebox",
+	["RaceResults"] = "Résultats de la dernière course",
+	["ServerSettings"] = "Réglage de la Tour (Tour Personnalisée)",
+	["Settings"] = "Réglage du jeu",
 	["Shop"] = "Buy game passes and tokens",
-	["Spectate"] = "Spectate other players",
-	["Stats"] = "Your badges and achievements",
-	["SwitchServer"] = "Switch Tower",
-	["Tokens"] = "Your tokens",
-	["Tutorial"] = "Play the Tutorial",
+	["Spectate"] = "Regarder les autres joueurs",
+	["Stats"] = "Vos Badges et Succès",
+	["SwitchServer"] = "Changer de Tour",
+	["Tokens"] = "Vos tokens",
+	["Tutorial"] = "Jouer le Tutoriel",
 
 }
 
@@ -269,9 +269,9 @@ module.gui.menu = {
 --end screen tutorial
 module.gui.tutorial = {
 	
-	["complete"] = "CLIMB COMPLETED!",
-	["choose"] = "Please choose your first alignment!",
-	["difficulty"] = "Difficulty:",
+	["complete"] = "MONTÉE COMPLETÉ!",
+	["choose"] = "Choisissez votre première classe!",
+	["difficulty"] = "Difficulté:",
 	
 }
 
@@ -283,9 +283,9 @@ module.spells = {}
 
 local CommonSpellNames = {
 	["rigevent"] = "%s Rig",
-	["mode"] = "Drones %s Mode",
-	["refill"] = "Mana Overload (%s)",
-	["union"] = "Ghost Union (%s)",
+	["mode"] = "Drones en Mode %s",
+	["refill"] = "Surcharge de Mana (%s)",
+	["union"] = "Union Fantômatique (%s)",
 }
 
 module.spells.names = {
@@ -310,77 +310,77 @@ module.spells.names = {
 	["disco"] = "Escalier Disco",
 	["trap"] = "Créer un Piège",
 
-	["flipper"] = "Flipper",
-	["jokerevent"] = "The Cloak",
-	["jokeraltevent"] = "Flip Them All",
+	["flipper"] = "Retourneur",
+	["jokerevent"] = "Le Voile",
+	["jokeraltevent"] = "Retournez Les Tous",
 
 	--WICKED
-	["destroy"] = "Destroy Stairs",
-	["destroyabove"] = "Destroy Above Stairs",
-	["bend"] = "Bend Stairs Up",
-	["damage"] = "Damage Above Stairs",
-	["flatten"] = "Bend Opposite Stairs Down",
-	["wall"] = "Create Wall" ,
+	["destroy"] = "Détruire l'Escalier",
+	["destroyabove"] = "Détruire l'Escalier Au Dessus",
+	["bend"] = "Courber l'Escalier Vers le Haut",
+	["damage"] = "Endommager l'Escalier Au Dessus",
+	["flatten"] = "Courber l'Escalier Opposé Vers le Bas",
+	["wall"] = "Créer un Mur" ,
 
-	["bender"] = "Bender",
+	["bender"] = "Courbeur",
 	["wickedevent"] = "Destruction",
 	["wickedaltevent"] = "Purge",
 
 	--KEEPER
-	["move"] = "Move Stairs",
-	["rotate"] = "Rotate Stairs",
-	["moveup"] = "Move Stairs Up",
-	["movedown"] = "Restore Stairs",
-	["moverandom"] = "Random Above Move",
-	["rig"] = "Random Move",
+	["move"] = "Bouger l'Escalier",
+	["rotate"] = "Pivoter l'Escalier",
+	["moveup"] = "Bouger l'Escalier Vers le Haut",
+	["movedown"] = "Réparer l'Escalier",
+	["moverandom"] = "Bouger l'Escalier Au Dessus Aléatoirement",
+	["rig"] = "Bouger Aléatoirement",
 
 	["ascension"] = "Ascension",
-	["keeperevent"] = "Reshuffle",
-	["keeperaltevent"] = "Restoration",
+	["keeperevent"] = "Mélanger",
+	["keeperaltevent"] = "Réparation",
 
 	--SPECTRE
-	["phantom"] = "Create Phantom Stairs",
-	["ghost"] = "Ghostify Above Stairs",
-	["shadow"] = "Ghostify Stairs",
-	["horizontal"] = "Horizontal Teleport",
-	["random"] = "Random Teleport",
-	["vertical"] = "Vertical Teleport",
+	["phantom"] = "Créer un Escalier Fantôme",
+	["ghost"] = "Fantômatiser l'Escalier Au Dessus",
+	["shadow"] = "Fantômatiser l'Escalier",
+	["horizontal"] = "Téléportation Horizontale",
+	["random"] = "Téléportation Aléatoire",
+	["vertical"] = "Téléportation Verticale",
 
-	["traveller"] = "Shimmering",
-	["spectreevent"] = "Phantom Shuffle",
-	["spectrealtevent"] = "Æther Realm",
+	["traveller"] = "Chatoyance",
+	["spectreevent"] = "Mélange Fantômatique",
+	["spectrealtevent"] = "Royaume de l'Æther",
 
 	--HACKER
 	["dash"] = "Dash",
-	["blink"] = "Blink",
-	["swap"] = "Swap",
+	["blink"] = "Clignotement",
+	["swap"] = "Échange",
 	["slide"] = "Escalator",
-	["slideup"] = "Hack In Stairs",
-	["glitch"] = "Glitch Stairs",
+	["slideup"] = "Implanter un Escalier",
+	["glitch"] = "Glitcher l'Escalier",
 
-	["hack"] = "Speed Hack",
+	["hack"] = "Exploitement de la Vitesse",
 	["hackerevent"] = "Escalation",
-	["hackeraltevent"] = "Breach",
+	["hackeraltevent"] = "Brèche",
 
 	--THIEF
-	["steal"] = "Steal Stairs",
-	["stealabove"] = "Steal Above Stairs",
-	["place"] = "Place Stairs",
-	["uppass"] = "Spiral Staircase",
-	["sidepass"] = "Create Bypass",
-	["drop"] = "Ditch Stairs",
+	["steal"] = "Voler un Escalier",
+	["stealabove"] = "Voler un Escalier Au Dessus",
+	["place"] = "Placer un Escalier",
+	["uppass"] = "Escalier en Spirale",
+	["sidepass"] = "Créer un Passage",
+	["drop"] = "Escalier Plat",
 
-	["heist"] = "Heist",
-	["thiefevent"] = "Flat Land",
-	["thiefaltevent"] = "Mega Bypass",
+	["heist"] = "Braquage",
+	["thiefevent"] = "Terre Plate",
+	["thiefaltevent"] = "Passage pour Chaque Escalier",
 
 	--ARCHON
-	["splitup"] = "Create Up Gate",
-	["splitrotate"] = "Create Rotated Gate",
-	["splitside"] = "Create Straight Gate",
-	["splitrandom"] = "Create Random Gate",
-	["cancelsplit"] = "Destroy Gate",
-	["splitforward"] = "Create Platform Gate",
+	["splitup"] = "Créer un Portail Vers le Haut",
+	["splitrotate"] = "Créer un Portail en Pivot",
+	["splitside"] = "Créer un Portail Droit",
+	["splitrandom"] = "Créer un Portail Aléatoire",
+	["cancelsplit"] = "Détruire le Portail",
+	["splitforward"] = "Créer un Portail de Plateforme",
 
 	["splitter"] = "Portalmania",
 	["archonevent"] = "StairGåte-1",
@@ -388,39 +388,39 @@ module.spells.names = {
 
 	--DRIFTER
 	["indrift"] = "Surf",
-	["outdrift"] = "Random Drift",
-	["updrift"] = "Elevator",
-	["diagdrift"] = "Diagonal Drift",
-	["spin"] = "Spin Stairs",
-	["driftabove"] = "Lift Above Stairs",
+	["outdrift"] = "Dérive Aléatoire",
+	["updrift"] = "Ascenseur",
+	["diagdrift"] = "Dérive Diagonale",
+	["spin"] = "Tourner l'Escalier",
+	["driftabove"] = "Lever l'Escalier Au Dessus",
 
-	["riser"] = "Riser",
-	["drifterevent"] = "Driftage",
-	["drifteraltevent"] = "Liftage",
+	["riser"] = "Monteur",
+	["drifterevent"] = "Dérivage",
+	["drifteraltevent"] = "Levage",
 
 	--HERETIC
-	["createcursed"] = "Create Cursed Stairs",
-	["curse"] = "Curse Stairs",
-	["curseabove"] = "Curse Above Stairs",
-	["curseinter"] = "Flicker",
-	["autodown"] = "Raise Schism",
-	["autoup"] = "Schism Opposite Down",
+	["createcursed"] = "Créer un Escalier Maudit",
+	["curse"] = "Maudire l'Escalier",
+	["curseabove"] = "Maudire l'Escalier Au Dessus",
+	["curseinter"] = "Clignotement",
+	["autodown"] = "Élever un Schisme",
+	["autoup"] = "Abaisser un Schisme",
 
-	["malediction"] = "Malediction",
-	["hereticevent"] = "Disunion",
+	["malediction"] = "Malédiction",
+	["hereticevent"] = "Désunion",
 	["hereticaltevent"] = "Vengeance",
 
 	--SPLICER
-	["twistup"] = "Splice Stairs Up",
-	["twistside"] = "Splice Parallel Stairs",
-	["twistrotate"] = "Splice Adjacent Stairs",
-	["canceltwist"] = "Restore Twisted Stairs",
-	["split2"] = "Split Stairs",
-	["splitalt"] = "Split Stairs Forward",
+	["twistup"] = "Assembler les Escaliers Vers le Haut",
+	["twistside"] = "Assembler les Escaliers en Parallèle",
+	["twistrotate"] = "Assembler les Escaliers Adjacents",
+	["canceltwist"] = "Réparer l'Escalier Tordu",
+	["split2"] = "Diviser l'Escalier",
+	["splitalt"] = "Diviser l'Escalier en Avant",
 
-	["twister"] = "Twister",
-	["splicerevent"] = "Interweave",
-	["spliceraltevent"] = "Bisect",
+	["twister"] = "Tordeur",
+	["splicerevent"] = "Entrelacement",
+	["spliceraltevent"] = "Bisection",
 
 	--NECROMANCER
 	["createdual"] = "Create Dual Stairs",
