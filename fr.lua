@@ -188,7 +188,7 @@ module.gui.questions = {
 	--new
 	["race"] = "Rejoindre course?",
 	["racein"] = "Course dans:",
-	["go"] = "Partez!",
+	["go"] = "Go!",
 	["raceoff"] = "Course annulée",
  	--end new
 }
@@ -423,117 +423,117 @@ module.spells.names = {
 	["spliceraltevent"] = "Bisection",
 
 	--NECROMANCER
-	["createdual"] = "Create Dual Stairs",
-	["copyplatform"] = "Copy Ghost's Platform",
-	["soulbridge"] = "Create Soul Bridge",
-	["undeadabove"] = "Remove Soul Above",
-	["revival"] = "Revival Point",
-	["regen"] = "Regenerate Mana",
+	["createdual"] = "Créer un Double Escalier",
+	["copyplatform"] = "Copier la Plateforme du Fantôme",
+	["soulbridge"] = "Créer un Pont d'Âme",
+	["undeadabove"] = "Retirer l'Âme Au Dessus",
+	["revival"] = "Point de Réapparition",
+	["regen"] = "Regénérer Mana",
 
-	["duality"] = "Duality",
-	["necromancerevent"] = "Resurrection",
-	["necromanceraltevent"] = "Soul Harvest",
+	["duality"] = "Dualité",
+	["necromancerevent"] = "Résurrection",
+	["necromanceraltevent"] = "Collecte d'Âmes",
 
 	--REAVER
-	["createmirrored"] = "Create Mirrored Stairs",
-	["bigmirror"] = "Giant Mirror",
-	["smallmirror"] = "Small Mirror",
-	["outermirror"] = "Outer Mirror",
-	["merge"] = "Reaver Merge",
-	["oneway"] = "Glass Stairs",
+	["createmirrored"] = "Créer un Escalier Miroir",
+	["bigmirror"] = "Miroir Géant",
+	["smallmirror"] = "Petit Miroi",
+	["outermirror"] = "Miroir Extérieur",
+	["merge"] = "Fusion du Reaver",
+	["oneway"] = "Escalier en Verre",
 
-	["reflection"] = "Reflection",
-	["reaverevent"] = "Cross Roads",
+	["reflection"] = "Réflection",
+	["reaverevent"] = "Carrefour",
 	["reaveraltevent"] = "Vitrification",
 
 
 	--GREMLIN
-	["tram"] = "Create Tram Stairs",
-	["screwup"] = "Up Corkscrew",
-	["revolve"] = "Revolve Stairs",
-	["trapstairs"] = "Trapdoor Stairs",
-	["screwdown"] = "Down Corkscrew",
-	["spinplatform"] = "Revolve Platform",
+	["tram"] = "Créer un Escalier Tram",
+	["screwup"] = "Spirale Vers le Haut",
+	["revolve"] = "Escalier Tournant",
+	["trapstairs"] = "Escalier-Trappe",
+	["screwdown"] = "Spirale vers le Bas",
+	["spinplatform"] = "Plateforme Tournante",
 
 	["tramway"] = "Tram-way",
-	["gremlinevent"] = "Revolvelution",
-	["gremlinaltevent"] = "Gridlock",
+	["gremlinevent"] = "Tournolution",
+	["gremlinaltevent"] = "Blocage",
 	
 	--TUTORIAL
-	["tcreate"] = "Create Stairs",
-	["tflip"] = "Flip Stairs",
-	["tdestroy"] = "Destroy Above Stairs",
-	["tmove"] = "Move Stairs",
+	["tcreate"] = "Créer un Escalier",
+	["tflip"] = "Retourner un Escalier",
+	["tdestroy"] = "Détuire l'Escalier Au Dessus",
+	["tmove"] = "Bouger l'Escalier",
 	["tdash"] = "Dash",
-	["trestore"] = "Restore Stairs",
+	["trestore"] = "Réparer l'Escalier",
 
 	--CHAMELEON
-	["ditch"] = "Cross Stairs",
-	["warp"] = "Warp Stairs",
-	["chamdown"] = "Move Stairs Down",
-	["chamdraw"] = "Below Drawbridge",
+	["ditch"] = "Escalier en Croix",
+	["warp"] = "Distordre l'Escalier",
+	["chamdown"] = "Bouger l'Escalier Vers le Bas",
+	["chamdraw"] = "Pont-Levis en Dessous",
 	--["chamswap"] = "Copy Ghost (visual)",
-	["chamdrawabove"] = "Above Drawbridge",
-	["oneways"] = "One-Way Stairs",
+	["chamdrawabove"] = "Pont-Levis Au Dessus",
+	["oneways"] = "Escalier Unidirectionnel",
 
 	--NEW
 
-	["mugglereg"] = "Staircase is regenerating",
-	["mugglecd"] = "Events and Rigs Cooldown",
-	["share"] = "Share mana (requires 2 Mana minimum)",
+	["mugglereg"] = "Les Escaliers se Régénèrent",
+	["mugglecd"] = "Temps de Recharge Évèvements et Rigs",
+	["share"] = "Partager Mana (Nécesste au moins 2 mana)",
 
 	--ARCHITECT
-	["archpatron"] = "Create or shrink",
-	["archarchon"] = "Gate stairs or platform",
-	["archthief"] = "Steal or place",
-	["archnecro"] = "Dual or Undead stairs",
-	["archhacker"] = "Escalator or Hack-in",
-	["archkeeper"] = "Move or Restore",
-	["archsplicer"] = "Splice or Split",
-	["archwicked"] = "Wall or Destroy",
-	["archgremlin"] = "Revolve stairs or a platform",
-	["archjoker"] = "Fake or Flip stairs",
-	["archdrifter"] = "Drift or Elevator",
-	["archspectre"] = "Phantom or Ghost stairs",
-	["archreaver"] = "Mirrored or One-way stairs",
-	["archheretic"] = "Curse intersection or stairs",
+	["archpatron"] = "Créer ou Rétrécir",
+	["archarchon"] = "Escalier Portail ou Plateforme",
+	["archthief"] = "Voler ou Placer",
+	["archnecro"] = " Escaliers Double ou Mort-Vivant",
+	["archhacker"] = "Escalator ou Implementer",
+	["archkeeper"] = "Bouger ou Réparer",
+	["archsplicer"] = "Assembler ou Diviser",
+	["archwicked"] = "Mur ou Détruire",
+	["archgremlin"] = "Tourner Escalier ou Plateforme",
+	["archjoker"] = "Faux Escalier ou Retourner",
+	["archdrifter"] = "Dériver ou Ascenceur",
+	["archspectre"] = "Escalier Fantôme ou Fantômatisé",
+	["archreaver"] = "Escalier Miroir ou Unidirectionel",
+	["archheretic"] = "Maudire Intersection ou Escalier",
 
 	--END NEW
 
 }
 
 -- common description stuff
-local union = "This is a timed Ghost Union spell. Once in Ghost Union Mode, you can clip through blocking stairs and walk on ghost, obby, and fake stairs. Special stairs will have no effect on you, and you will not trigger rigs. However, you cannot cast spells in this mode."
-local overload = "This is an Overload spell. It will grant you one Mana every 6 seconds for the next minute (10 in total). You can have only one overload active at a time."
-local timed = "This spell is timed. "  -- do not remove space
-local rig = "This is a Rig spell. It will Rig all normal stairs, one by one, with " -- do not remove space
-local event = "This is an Event spell. It will affect all normal stairs with " -- do not remove space
-local fill = "This is a Fill spell. It will create stairs in every empty uncursed intersection in a random direction. " -- do not remove spaces
-local mode = "This is a Drone spell. It will change the drone mode to %s. In this mode drones will cast randomly either %s or %s on normal stairs. Special stairs will be restored instead. Outside of limits, drones will create and destroy respectively."
-local timedExtra = " Rank up to %s to increase the limit to 90s. Casting this spell will also refill Mana for all %s with at least %s Rank." -- do not remove leading space
+local union = "C'est un Sort Chronométré Union Fantômatique. Une fois en Union Fantômatique, vous pouvez passer au travers des Escaliers Bloquants et Marcher sur les Escaliers Fantômatisé, Parcours et Faux. Les Escaliers Spéciaux n'auront aucun effet sur vous, et vous n'activerez pas les Rigs. Cependant, vous ne pouvez pas lancer de sorts."
+local overload = "C'est un Sort de Surchage. Cela donnera un Mana toutes les 6 secondes pour la prochaine minute. (10 au total). Vous ne pouvez avoir que une surcharge à la fois."
+local timed = "C'est un Sort Chronométré. "  -- do not remove space
+local rig = "C'est un Sort de Rig. Cela va Rig tout les escaliers normaux, un par un, avec " -- do not remove space
+local event = "C'est un Sort d'Événement. Cela affectera tout les escaliers normaux avec " -- do not remove space
+local fill = "C'est un Sort de Remplissage. Cela créera dans chaque intersection non maudite et vide dans une direction aléatoire. " -- do not remove spaces
+local mode = "C'est un Sort de Drone. Il va changer le Mode du Drone en %s. Dans ce mode les drones vont lancer aléatoirement entre un %s ou %s sur les Escaliers Normaux. Les Escaliers Spéciaux seront réparés à la place. En dehors des limites, les drones créeront et détruiront respectivement."
+local timedExtra = " Atteignez le rang %s pour augmenter la limite à 90s. Lancer ce sort remplira également le Mana de tous les %s ayant au moins le rang %s." -- do not remove leading space
 
 module.spells.descriptions = {
 
 	--PATRON
-	["summon"] = "This spell allows you to create stairs in the chosen direction. If there are any crossing stairs in the way, they will be destroyed.",
-	["restore"] = "This spell calls the orb on the top level to the chosen platform. Rank up to DEFENDER to reduce the cost to 2 Mana. Rank up to SAVIOUR to double the speed at which the orb will travel to You.",
-	["split"] = "This spell recreates below stairs in the opposite direction. Recreated stairs will be normal regardeless of original stairs type.",
-	["shrinkabove"] = "This spell shrinks above stairs, allowing you to walk around them.",
-	["link"] = "This spell creates an energy bridge between platforms for 60 seconds. Links are intangible from below. Rank up to the CREATOR rank to extend the time to 120 seconds.",
-	["portal"] = "This spell creates portal that will teleport all players one platform up. Portal lasts 60 seconds. Rank up to PROTECTOR to extend the time to 120 seconds.",
+	["summon"] = "Ce sort permet de créer un escalier dans la direction choisi. Si il y a un escalier dans le chemin, il sera détruit.",
+	["restore"] = "Ce sort permet d'appeler l'Orbe sur la plateforme choisie sur le dernier niveau. Atteignez le rang DEFENDER pour réduire le coût à 2 mana. Atteignez le rang SAVIOUR pour doubler la vitesse à laquelle l’orbe vous rejoint.",
+	["split"] = "Ce sort permet de recrée un escalier en dessous dans la direction opposée. L'escalier recrée sera normal, quel que soit le type d’escaliers d’origine.",
+	["shrinkabove"] = "Ce sort permet de rétrécir l'escalier au dessus, ce qui permets de les contourner.",
+	["link"] = "Ce sort permet de créer un pont reliant deux plateformes entre-elles pendant 60 secondes. les Ponts sont intangibles en dessous. Atteignez le rang CREATOR pour étendre le temps à 120 secondes.",
+	["portal"] = "Ce sort permet de créer un portail qui téléporteras tous les joueurs d'une plateforme vers le haut. Les portails restent 60 secondes. Atteignez le rang PROTECTOR pour étendre le temps à 120 secondes",
 
-	["summoner"] = timed ..  "It allows you to create as many stairs as you like for one minute. Keep jumping on the arrows to create stairs." .. string.format(timedExtra,RankData.PATRON[7].name,"Patrons",RankData.PATRON[3].name),
-	["patronrigevent"] = rig .."the Patron Rig. Patron Rig, once triggered, will increase triggering player Mana by one. If player has maximum Mana, stairs will not trigger. After triggering, stairs will become normal again.",
-	["patronevent"] = fill ..  "Created stairs will be normal.",
-	["patronaltevent"] = event .. "the Shrink spell.",
-	["patronmode"] = string.format(mode,"Patron","Patron Rig","Shrink Spell"),
+	["summoner"] = timed ..  "Cela vous permets de créer autant d'escaliers que vous le voudrez pendant une minute. Sauter sur les flèches pour créer des escaliers." .. string.format(timedExtra,RankData.PATRON[7].name,"Patrons",RankData.PATRON[3].name),
+	["patronrigevent"] = rig .."le Patron Rig. Patron Rig, une fois activé, il augmentera le mana du joueur de un. Si le joueur a le maximum de Mana, l'escalier ne s'activeras pas. Après activation, les escaliers redeviendront normaux.",
+	["patronevent"] = fill ..  "Les escaliers créés seront normaux.",
+	["patronaltevent"] = event .. "le Sort de Rétrécissement.",
+	["patronmode"] = string.format(mode,"Patron","Patron Rig","Sort de Rétrécissement"),
 	["patronrefill"] = overload,
 	["patronunion"] = union,
 
 	--JOKER
-	["flip"] = "This spell flips stairs around, so top will become bottom and vice versa. You may also flip such stairs back.",
-	["flipabove"] = "This spell flips above stairs, so top will become bottom and vice versa. You may also flip such stairs back.",
-	["fake"] = "This spell allows you to create fake stairs in the chosen direction. If there are any crossing stairs in the way, they will be destroyed. Any player (including you) that will attempt to climb them will fall through, with the exception of TRICKSTERS, ITS and players in the Ghost Union Mode.",
+	["flip"] = "Ce sort permet de retourner l'escalier, le haut deviendras le bas et Vice Versa. Vous pouvez également retourner ce type d'escalier à nouveau.",
+	["flipabove"] = "Ce sort permet de retourner l'escalier au dessus, le haut deviendras le bas et Vice Versa. Vous pouvez également retourner ce type d'escalier à nouveau.",
+	["fake"] = "Ce sort permet de créer un faux escalier dans la direction choisie. Si il y a un escalier sur le chemin, il sera détruit. N'importe quel joueur (vous inclus) qui essaye de monter sur cet escalier to climb them will fall through, with the exception of TRICKSTERS, ITS and players in the Ghost Union Mode.",
 	["invisible"] =  "This spell creates invisible stairs. However, this will not destroy crossing stairs, so you can only place stairs in an empty intersection. Rank up to JESTER to see all invisible stairs, and have the option to not reveal them.",
 	["disco"] = "This spell turns stairs into disco mode. Any player (including you) will stop and dance on them for 5 seconds (usually twice). Ranks COMIC and up are immune to disco stairs.",
 	["trap"] = "This spell turns platform into a trap door for 60 seconds. Any player (including you) that will walk on the trap will fall to the platform below. Rank up to JOKESTER to be able to detect platform traps. Rank up to TRICKSTER to be immune to such traps.",
